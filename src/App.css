@@ -36,3 +36,265 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  background-color: rgba(255, 255, 255, 0);
+  transition: 1s;
+
+}
+
+
+h1{
+ 
+  color: rgb(0, 0, 0);
+  font-family: 'Rubik Beastly', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(6, 4, 0);
+  font-family: 'Mochiy Pop P One';
+}
+
+
+h3{
+  margin:auto;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Prompt';
+}
+
+
+.food {
+width:80px;
+height:80px;
+background-color: rgb(255, 166, 0);
+border: black;
+border-style: solid;
+}
+
+
+.water {
+  width:80px;
+  height:80px;
+  background-color: rgb(0, 183, 255);
+  border: black;
+  border-style: solid;
+  }
+
+  .plant {
+      width:80px;
+      height:80px;
+      background-color: rgb(0, 255, 21);
+      border: black;
+      border-style: solid;
+      }
+
+      .bsupply {
+          width:80px;
+          height:80px;
+          background-color: rgb(90, 90, 90);
+          border: black;
+          border-style: solid;
+          }
+
+          .provision {
+              width:80px;
+              height:80px;
+              background-color: rgb(0, 0, 0);
+              border: black;
+              border-style: solid;
+
+                        }
+                        .hazard {
+                          width:80px;
+                          height:80px;
+                          background-color: rgb(255, 0, 0);
+                          border: black;
+                          border-style: solid;
+                  
+                          }
+
+                          .fishing {
+                              width:80px;
+                              height:80px;
+                              background-color: rgb(38, 0, 255);
+                              border: black;
+                              border-style: solid;
+                              }
+                          
+                              .pantry {
+                                  width:80px;
+                                  height:80px;
+                                  background-color: rgb(99, 88, 88);
+                                  border: black;
+                                  border-style: solid;
+                                  }
+                                  .season {
+                                      width:80px;
+                                      height:80px;
+                                      background-color: rgb(3, 31, 2);
+                                      border: black;
+                                      border-style: solid;
+                                      }
+                                      .dirt {
+                                          width:80px;
+                                          height:80px;
+                                          background-color: rgb(46, 28, 6);
+                                          border: black;
+                                          border-style: solid;
+                                          }
+
+                                         td {
+                                             color: blanchedalmond;
+                                             text-align: center;
+                                         }
+
+                                         td:hover {
+                                        
+                                          opacity: 75%;
+                                             
+                                         }
+
+                                         table {
+                                             margin: auto;
+                                         }
+
+                                         #resources {
+                                             text-align: center;
+                                             color: blanchedalmond;
+                                         }
+
+                                         th {
+                                          text-align: center;
+                                          color: blanchedalmond;
+                                         }
+
+#resources   {
+   width: 500px;
+   height: 50px;
+   text-align: center;
+   border: rgb(255, 255, 255);
+   border-style: solid;
+   margin: auto;
+   font-size: 18px;
+   padding-top: 10px;
+   background-color: rgb(18, 10, 54);
+
+}                        
+.resources2   {
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  border: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgb(18, 10, 54);
+} 
+
+
+
+#tableres {
+  position: relative;
+  left: 300px;
+  bottom:825px;
+  font-family: 'Prompt';
+
+  
+}
+
+#tablegame {
+  display: grid;
+  grid-template-columns: 120px 120px 120px ;
+  grid-template-rows: 120px 120px 120px 20px;
+ /* justify-content: center;*/
+  font-family: 'Prompt';
+  font-size: 18px;
+
+}
+
+
+.tablebody {
+  font-family: 'Prompt';
+  font-size: 29px;
+  color:rgb(170, 255, 0);
+  transition: 1s;
+  transition-timing-function: ease;
+}
+
+.tablebody:hover{
+  font-family: 'Prompt';
+  font-size: 31px;
+  color:rgb(255, 187, 0);
+  transition: 1s;
+  transition-timing-function: ease;
+}
+
+.tableheader {
+  font-family: 'Prompt';
+  font-size: 32px;
+  color:rgb(170, 255, 0);
+  transition: 1s;
+  transition-timing-function: ease;
+}
+
+.players {
+  position: absolute;
+  top: 90.9vmin;
+  left: 3vmin;
+  height:4vmin;
+  width:4vmin;
+  border-radius: 50%;
+  border-color: azure;
+  opacity: 0.7;
+  transition-duration: 0.4s;
+  transition-property: margin;
+      }
+  
+  
+      .players:nth-child(1){background-color:red};
+      .players:nth-child(2){background-color:blue};
+
+
+
+  .cardContact{
+    text-align: center;
+    font-size: medium;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .new {
+    text-align: center;
+  
+  }
+
+  li {display: inline-block;}
+
+
+.no-bullets {
+  list-style-type: none;
+  background-color: rgb(124, 0, 112);
+  padding: 20px;
+}
+.links{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.links:hover{
+  background-color: rgba(7, 245, 165, 0.202);
+  border-radius:  10%;
+  padding:10px;
+  }
